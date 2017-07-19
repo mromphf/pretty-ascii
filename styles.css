@@ -1,0 +1,29 @@
+table {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "roboto";
+}
+
+th {
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+tr:hover {
+    color: #fff;
+    background-color: #3498db;
+}
+
+@media (max-width: 1024px ) {
+    table {
+        width: 100%;
+    }
+}
