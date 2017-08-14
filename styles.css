@@ -1,20 +1,36 @@
+table:first-child {
+    margin-left: 9%;
+}
+
+table:first-child td:nth-child(4) {
+    color: #f00;
+}
+
+table:first-child td:nth-child(5) {
+    color: #000;
+}
+
 table {
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 5%;
+    width: 20%;
+    display: inline-block;
+    margin-top: 1%;
     margin-bottom: 5%;
     font-family: "roboto";
 }
 
 th {
-    padding: 5px;
+    padding: 2px;
     background-color: #000;
     color: #fff;
 }
 
 td {
     text-align: center;
-    padding: 5px;
+    padding: 2px;
+}
+
+td:nth-child(5) {
+    color: #f00;
 }
 
 tr:hover {
@@ -25,5 +41,9 @@ tr:hover {
 @media (max-width: 1024px ) {
     table {
         width: 100%;
+    }
+
+    table:first-child {
+        margin-left: 0;
     }
 }
