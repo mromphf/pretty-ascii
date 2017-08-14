@@ -21,6 +21,10 @@ table {
     margin-bottom: 0.5%;
 }
 
+table:not(:first-of-type) td {
+    width: 20%;
+}
+
 th {
     padding: 2px;
     background-color: #000;
