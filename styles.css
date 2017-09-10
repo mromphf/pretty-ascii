@@ -45,6 +45,14 @@ tr:hover {
     background-color: #3498db;
 }
 
+tr:hover td:nth-child(4) {
+    color: #fff;
+}
+
+tr:hover td:nth-child(5) {
+    color: #fff;
+}
+
 a {
     color: #00f;
     text-decoration: none;
