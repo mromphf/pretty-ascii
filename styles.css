@@ -2,10 +2,6 @@ body {
     font-family: "roboto";
 }
 
-table:first-child {
-    margin-left: 9%;
-}
-
 table:first-child td:nth-child(4) {
     color: #f00;
 }
@@ -15,14 +11,9 @@ table:first-child td:nth-child(5) {
 }
 
 table {
-    width: 20%;
     display: inline-block;
     margin-top: 1%;
     margin-bottom: 0.5%;
-}
-
-table:not(:first-of-type) td {
-    width: 20%;
 }
 
 th {
@@ -33,7 +24,7 @@ th {
 
 td {
     text-align: center;
-    padding: 2px;
+    padding: 2px 10px 2px 10px;
 }
 
 td:nth-child(5) {
@@ -65,10 +56,11 @@ a:visited {
 
 @media (max-width: 1024px ) {
     table {
-        width: 100%;
+	display: inline;
+	width: 100%;
     }
 
-    table:first-child {
-        margin-left: 0;
+    td, th {
+	width: 10%;
     }
 }
