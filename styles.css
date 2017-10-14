@@ -25,11 +25,13 @@ th {
     padding: 2px;
     background-color: #000;
     color: #fff;
+    min-width: 40px;
 }
 
 td {
     text-align: center;
     padding: 2px 10px 2px 10px;
+    min-width: 40px;
 }
 
 td:hover {
@@ -71,11 +73,10 @@ textarea {
 
 @media (max-width: 1024px ) {
     table {
-	display: inline;
-	width: 100%;
+	    display: inline;
     }
 
     td, th {
-	width: 10%;
+	    width: 10%;
     }
 }
